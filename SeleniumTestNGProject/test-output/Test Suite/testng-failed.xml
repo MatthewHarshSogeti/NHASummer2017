@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <test name="My tests(failed)">
+    <classes>
+      <class name="seleniumTestNG.TestNGTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openApplication"/>
+          <include name="launchBrowser"/>
+          <include name="securePurchase"/>
+          <include name="flightConfirmation"/>
+        </methods>
+      </class> <!-- seleniumTestNG.TestNGTests -->
+    </classes>
+  </test> <!-- My tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

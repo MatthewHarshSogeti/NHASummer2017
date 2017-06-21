@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="13153" started-at="2017-06-21T00:27:07Z" finished-at="2017-06-21T00:27:20Z">
+    <groups>
+      <group name="priority=1">
+        <method signature="NGTestSuite.verifyTitle()[pri:0, instance:samples.NGTestSuite@39f31e]" name="verifyTitle" class="samples.NGTestSuite"/>
+      </group> <!-- priority=1 -->
+    </groups>
+    <test name="My tests" duration-ms="13153" started-at="2017-06-21T00:27:07Z" finished-at="2017-06-21T00:27:20Z">
+      <class name="samples.NGTestSuite">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:samples.NGTestSuite@39f31e]" name="launchBrowser" is-config="true" duration-ms="5854" started-at="2017-06-20T20:27:01Z" finished-at="2017-06-20T20:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:samples.NGTestSuite@39f31e]" name="openApplication" is-config="true" duration-ms="937" started-at="2017-06-20T20:27:07Z" finished-at="2017-06-20T20:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:samples.NGTestSuite@39f31e]" name="verifyTitle" duration-ms="1038" started-at="2017-06-20T20:27:08Z" finished-at="2017-06-20T20:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="signIn()[pri:2, instance:samples.NGTestSuite@39f31e]" name="signIn" duration-ms="1487" started-at="2017-06-20T20:27:09Z" finished-at="2017-06-20T20:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="verifyLinkElements()[pri:3, instance:samples.NGTestSuite@39f31e]" name="verifyLinkElements" duration-ms="3793" started-at="2017-06-20T20:27:10Z" finished-at="2017-06-20T20:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkElements -->
+        <test-method status="PASS" signature="flightDetails()[pri:5, instance:samples.NGTestSuite@39f31e]" name="flightDetails" duration-ms="1816" started-at="2017-06-20T20:27:14Z" finished-at="2017-06-20T20:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetails -->
+        <test-method status="PASS" signature="verifyDepartCity()[pri:6, instance:samples.NGTestSuite@39f31e]" name="verifyDepartCity" duration-ms="1196" started-at="2017-06-20T20:27:16Z" finished-at="2017-06-20T20:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDepartCity -->
+        <test-method status="PASS" signature="securePurchase()[pri:7, instance:samples.NGTestSuite@39f31e]" name="securePurchase" duration-ms="1342" started-at="2017-06-20T20:27:17Z" finished-at="2017-06-20T20:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- securePurchase -->
+        <test-method status="PASS" signature="flightConfirmation()[pri:8, instance:samples.NGTestSuite@39f31e]" name="flightConfirmation" duration-ms="1481" started-at="2017-06-20T20:27:18Z" finished-at="2017-06-20T20:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:samples.NGTestSuite@39f31e]" name="closeBrowser" is-config="true" duration-ms="1939" started-at="2017-06-20T20:27:20Z" finished-at="2017-06-20T20:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- samples.NGTestSuite -->
+    </test> <!-- My tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
